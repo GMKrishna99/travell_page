@@ -1,10 +1,10 @@
 import Link from "next/link"
-import SiteLogo from '../public/images/hilink-logo.svg'
+import SiteLogo from '../public/hilink-logo.svg'
 import Image from "next/image"
 import { NAV_LINKS } from "@/constants"
 import Button from "./Button"
-import UserSVG from '../public/images/user.svg'
-import HamBurgerIcon from '../public/images/menu.svg'
+import UserSVG from '../public/user.svg'
+import HamBurgerIcon from '../public/menu.svg'
 const Navbar = () => {
     return (
         <nav className=" flexBetween items-center  max-container padding-container relative z-30 py-5">
